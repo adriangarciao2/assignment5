@@ -48,4 +48,4 @@ jobs:
           path: |
             target/site/jacoco/*
             target/site/jacoco/jacoco.xml
-          if-no-files-found: warnODO
+          if-no-files-found: warn

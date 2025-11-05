@@ -1,9 +1,8 @@
 package org.example.Amazon.Cost;
 
+import java.util.List;
 import org.example.Amazon.Item;
 
-import java.util.List;
-
 public interface PriceRule {
-    double priceToAggregate(List<Item> cart);
+  double priceToAggregate(List<Item> cart);
 }
